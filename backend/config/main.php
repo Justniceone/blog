@@ -13,6 +13,7 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
 	'language'=> 'zh-CN',
+    'defaultRoute'=>'post/index',
     'components' => [
         'user' => [
             'identityClass' => 'common\models\Adminuser',
@@ -44,9 +45,7 @@ return [
             'showScriptName' => false,
         	'suffix'=>'.html',
             'rules' => [
-            	'<controller:(post|comment)>s'=>'<controller>/index',
-            	'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-            	'<controller:\w+>/<id:\d+>/<action:(create|update|delete)>'=>'<controller>/<action>',
+            	
             ],
         ],
         
