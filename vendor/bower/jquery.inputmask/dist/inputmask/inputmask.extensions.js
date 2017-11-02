@@ -1,21 +1,22 @@
 /*!
 * inputmask.extensions.js
-* http://github.com/RobinHerbots/jquery.inputmask
-* Copyright (c) 2010 - 2016 Robin Herbots
+* https://github.com/RobinHerbots/Inputmask
+* Copyright (c) 2010 - 2017 Robin Herbots
 * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
-* Version: 3.2.7
+* Version: 3.3.10
 */
+
 !function(factory) {
-    "function" == typeof define && define.amd ? define([ "inputmask.dependencyLib", "inputmask" ], factory) : "object" == typeof exports ? module.exports = factory(require("./inputmask.dependencyLib.jquery"), require("./inputmask")) : factory(window.dependencyLib || jQuery, window.Inputmask);
+    "function" == typeof define && define.amd ? define([ "./dependencyLibs/inputmask.dependencyLib", "./inputmask" ], factory) : "object" == typeof exports ? module.exports = factory(require("./dependencyLibs/inputmask.dependencyLib"), require("./inputmask")) : factory(window.dependencyLib || jQuery, window.Inputmask);
 }(function($, Inputmask) {
     return Inputmask.extendDefinitions({
         A: {
-            validator: "[A-Za-z\u0410-\u044f\u0401\u0451\xc0-\xff\xb5]",
+            validator: "[A-Za-zА-яЁёÀ-ÿµ]",
             cardinality: 1,
             casing: "upper"
         },
         "&": {
-            validator: "[0-9A-Za-z\u0410-\u044f\u0401\u0451\xc0-\xff\xb5]",
+            validator: "[0-9A-Za-zА-яЁёÀ-ÿµ]",
             cardinality: 1,
             casing: "upper"
         },
@@ -34,7 +35,8 @@
             },
             mask: "(\\http://)|(\\http\\s://)|(ftp://)|(ftp\\s://)i{+}",
             insertMode: !1,
-            autoUnmask: !1
+            autoUnmask: !1,
+            inputmode: "url"
         },
         ip: {
             mask: "i[i[i]].i[i[i]].i[i[i]].i[i[i]]",
@@ -50,27 +52,46 @@
             },
             onUnMask: function(maskedValue, unmaskedValue, opts) {
                 return maskedValue;
-            }
+            },
+            inputmode: "numeric"
         },
         email: {
-            mask: "*{1,64}[.*{1,64}][.*{1,64}][.*{1,64}]@*{1,64}[.*{2,64}][.*{2,6}][.*{1,2}]",
+            mask: "*{1,64}[.*{1,64}][.*{1,64}][.*{1,63}]@-{1,63}.-{1,63}[.-{1,63}][.-{1,63}]",
             greedy: !1,
             onBeforePaste: function(pastedValue, opts) {
-                return pastedValue = pastedValue.toLowerCase(), pastedValue.replace("mailto:", "");
+                return (pastedValue = pastedValue.toLowerCase()).replace("mailto:", "");
             },
             definitions: {
                 "*": {
                     validator: "[0-9A-Za-z!#$%&'*+/=?^_`{|}~-]",
                     cardinality: 1,
                     casing: "lower"
+                },
+                "-": {
+                    validator: "[0-9A-Za-z-]",
+                    cardinality: 1,
+                    casing: "lower"
                 }
             },
             onUnMask: function(maskedValue, unmaskedValue, opts) {
                 return maskedValue;
-            }
+            },
+            inputmode: "email"
         },
         mac: {
             mask: "##:##:##:##:##:##"
+        },
+        vin: {
+            mask: "V{13}9{4}",
+            definitions: {
+                V: {
+                    validator: "[A-HJ-NPR-Za-hj-npr-z\\d]",
+                    cardinality: 1,
+                    casing: "upper"
+                }
+            },
+            clearIncomplete: !0,
+            autoUnmask: !0
         }
     }), Inputmask;
 });
