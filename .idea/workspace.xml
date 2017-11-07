@@ -2,70 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3c116ad-1d7a-4ce4-b8e9-3e1674652948" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/avatar.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/images/pic12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/views/post/first.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/css/ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/css/ie9.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/js/ie/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/js/ie/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/js/skel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/js/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/base/_page.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/base/_typography.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_author.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_blurb.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_box.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_button.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_form.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_icon.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_image.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_mini-post.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_post.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_section.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/components/_table.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/ie8.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/ie9.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/layout/_footer.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/layout/_header.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/layout/_intro.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/layout/_main.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/layout/_menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/layout/_sidebar.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/layout/_wrapper.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/libs/_functions.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/libs/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/libs/_skel.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/libs/_vars.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/frontend/web/static/assets/sass/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/comment/view.php" afterPath="$PROJECT_DIR$/backend/views/comment/view.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend/views/post/index.php" afterPath="$PROJECT_DIR$/backend/views/post/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/controllers/PostController.php" afterPath="$PROJECT_DIR$/frontend/controllers/PostController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend/views/post/index.php" afterPath="$PROJECT_DIR$/frontend/views/post/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -80,10 +17,10 @@
       <file leaf-file-name="PostController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frontend/controllers/PostController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+            <state relative-caret-position="540">
+              <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
               <folding>
-                <marker date="1510021049775" expanded="true" signature="1580:1608" ph="select count... post" />
+                <marker date="1510025500069" expanded="true" signature="1580:1608" ph="select count... post" />
               </folding>
             </state>
           </provider>
@@ -434,15 +371,15 @@
       <workItem from="1509679001246" duration="28000" />
       <workItem from="1509845728939" duration="4870000" />
       <workItem from="1509980153956" duration="37000" />
-      <workItem from="1510019365393" duration="2309000" />
+      <workItem from="1510019365393" duration="2318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9297000" />
+    <option name="totallyTimeSpent" value="9306000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1936" height="1040" extended-state="0" />
+    <frame x="-8" y="0" width="1936" height="1040" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26066098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -480,7 +417,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510021049775" expanded="true" signature="1580:1608" ph="select count... post" />
+            <marker date="1510025500069" expanded="true" signature="1580:1608" ph="select count... post" />
           </folding>
         </state>
       </provider>
@@ -490,7 +427,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1510021049775" expanded="true" signature="1580:1608" ph="select count... post" />
+            <marker date="1510025500069" expanded="true" signature="1580:1608" ph="select count... post" />
           </folding>
         </state>
       </provider>
@@ -668,10 +605,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/controllers/PostController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="94" column="22" lean-forward="false" selection-start-line="94" selection-start-column="22" selection-end-line="94" selection-end-column="22" />
+        <state relative-caret-position="540">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
           <folding>
-            <marker date="1510021049775" expanded="true" signature="1580:1608" ph="select count... post" />
+            <marker date="1510025500069" expanded="true" signature="1580:1608" ph="select count... post" />
           </folding>
         </state>
       </provider>

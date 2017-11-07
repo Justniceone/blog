@@ -98,7 +98,7 @@ class PostController extends Controller
         $searchModel = new PostSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-        return $this->renderPartial('index', [
+        return $this->renderPartial('first', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         	'tags'=>$tags,
