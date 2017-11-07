@@ -99,8 +99,7 @@ use yii\caching\yii\caching;
 				   </li>
 				</ul>			
 			</div>
-			
-			
+
 			<div class="commentbox">
 				<ul class="list-group">
 				  <li class="list-group-item">
@@ -111,11 +110,9 @@ use yii\caching\yii\caching;
 				  </li>
 				</ul>			
 			</div>
-			
-		
+
 		</div>
-		
-		
+
 	</div>
 
 </div>

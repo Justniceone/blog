@@ -62,7 +62,7 @@ class PostController extends Controller
         			],
         			'dependency'=>[
         					'class'=>'yii\caching\DbDependency',
-        					'sql'=>'select count(id) from post',
+        					'sql'=>'select count("id") from post',
         			],
         	],
         		
@@ -98,7 +98,7 @@ class PostController extends Controller
         $searchModel = new PostSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
-        return $this->render('index', [
+        return $this->renderPartial('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         	'tags'=>$tags,
@@ -216,18 +216,6 @@ class PostController extends Controller
     			'commentModel'=>$commentModel, 
     			'added'=>$this->added, 			
     	]);
-    	
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
 }

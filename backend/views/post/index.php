@@ -55,7 +55,6 @@ $this->params['breadcrumbs'][] = $this->title;
              ['attribute'=>'update_time',
              'format'=>['date','php:Y-m-d H:i:s'],
         	],
-             
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
